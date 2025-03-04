@@ -242,7 +242,7 @@ class Videoteca {
         System.out.println("Film rimosso con successo.\n\n");
     }
 
-    // metodo per rimuovere dal db.
+    
     public Film getFilm(String title) throws SQLException {
         String query = "SELECT * FROM Films WHERE title =?";
         try (PreparedStatement stmt = connection.prepareStatement(query)) {

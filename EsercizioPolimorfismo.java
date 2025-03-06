@@ -25,6 +25,6 @@ class Pirata extends Persona {
     }
 
     public void saluta() {
-        System.out.println("Ciao Mondo");
+        System.out.println(this.nome + " " + Ciao Mondo");
     }
 }
